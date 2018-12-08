@@ -8,7 +8,7 @@ const client = new Discord.Client();
 
 
  const devs = ['392414705873977346' , '475070652727033858' , ''];
-const adminprefix = "!";
+const adminprefix = "K";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
